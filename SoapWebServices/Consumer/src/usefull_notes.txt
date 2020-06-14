@@ -1,0 +1,9 @@
+
+open Exporter class to publish the soap web service
+run it as Java application
+
+http://localhost:4848/soap/TestServer?wsdl
+
+To import server webservice wsdl in client
+
+wsimport -keep -verbose -s ./src/ -d ./bin/ http://localhost:4848/soap/TestServer?wsdl
