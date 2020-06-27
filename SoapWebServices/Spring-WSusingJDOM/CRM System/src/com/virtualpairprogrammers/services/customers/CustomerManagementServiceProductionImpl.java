@@ -60,6 +60,7 @@ public class CustomerManagementServiceProductionImpl implements
 	@Override
 	public Customer findCustomerById(String customerId) throws CustomerNotFoundException 
 	{
+		System.out.println("findCustomerById : "+customerId);
 		try
 		{
 			return dao.getById(customerId);

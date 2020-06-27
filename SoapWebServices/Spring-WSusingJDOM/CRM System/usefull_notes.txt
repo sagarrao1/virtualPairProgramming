@@ -12,17 +12,22 @@ JAXB2
 
 this project is using JDOM jar to for xml conversion
 
+
+
 to start web services in server
-1. execute start_tomcat.bat in C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS
+================================
+	1. execute start_tomcat.bat in C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS
+	
+	2. run ant build.xml by right click run as ant build
+	
+	3. open client project ClientForSpringWSusingJDOM from C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS\client folder
+	in eclipse
 
-2. run ant build.xml by right click run as ant build
-
-3. open client project ClientForSpringWSusingJDOM from C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS\client folder
-in eclipse
-
-4. run MainApp clas
-
-5. verify company name coming from Web service in console of client project
+	wsdl url : http://localhost:8080/mywebapp/customers.wsdl
+	
+	4. run MainApp clas
+	
+	5. verify company name coming from Web service in console of client project
 
 
 == below are for for client project

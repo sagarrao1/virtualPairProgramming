@@ -11,7 +11,7 @@ public class MainApp {
 		CustomerService service= new CustomerServiceService().getCustomerServiceSoap11();
 		
 		GetCustomerByIdRequest getCustomerByIdRequest =  new GetCustomerByIdRequest();
-		getCustomerByIdRequest.setId("100029");	
+		getCustomerByIdRequest.setId("CS03939");	
 		
 		GetCustomerByIdResponse response = service.getCustomerById(getCustomerByIdRequest);
 		System.out.println(response.getCustomer().getCompanyName());

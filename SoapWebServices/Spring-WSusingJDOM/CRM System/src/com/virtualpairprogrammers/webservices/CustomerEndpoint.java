@@ -26,8 +26,10 @@ public class CustomerEndpoint {
 		
 		Element idElement= incoming.getChild("id");
 		String id = idElement.getText();
-		
+		System.out.println(id);
+		System.out.println("fetchCustomerDetailsJDomVersion ....");
 		Customer found = service.findCustomerById(id);
+		System.out.println("found:  "+found.getCustomerId() +"  "+found.getCompanyName());
 		
 		Element outgoing= new Element("getCustomerByIdResponse");
 		outgoing.addNamespaceDeclaration(Namespace.getNamespace("tns", NAMESPACE));

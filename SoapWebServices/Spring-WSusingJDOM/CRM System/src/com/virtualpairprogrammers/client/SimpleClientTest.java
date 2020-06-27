@@ -1,14 +1,7 @@
 package com.virtualpairprogrammers.client;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.GregorianCalendar;
-import java.util.List;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.virtualpairprogrammers.domain.Action;
-import com.virtualpairprogrammers.domain.Call;
 import com.virtualpairprogrammers.domain.Customer;
 import com.virtualpairprogrammers.services.calls.CallHandlingService;
 import com.virtualpairprogrammers.services.customers.CustomerManagementService;
@@ -29,8 +22,11 @@ public class SimpleClientTest {
 
 			try
 			{
-			Customer oldCustomer = customerService.findCustomerById("CS03939");
-			customerService.deleteCustomer(oldCustomer);
+			Customer c1 = customerService.findCustomerById("CS03939");
+			System.out.println(c1.getCompanyName());
+			
+//			Customer oldCustomer = customerService.findCustomerById("CS03940");
+//			customerService.deleteCustomer(oldCustomer);
 			}
 			catch (CustomerNotFoundException e)
 			{
@@ -38,7 +34,7 @@ public class SimpleClientTest {
 			}
 			
 //			// begin
-//			customerService.newCustomer(new Customer("CS03939", "Acme", "Good Customer"));
+//			customerService.newCustomer(new Customer("CS03940", "Acme", "Good Customer"));
 //			// commit
 //
 //			Call newCall = new Call("Larry Wall called from Acme Corp");
@@ -52,7 +48,7 @@ public class SimpleClientTest {
 //			// begin
 //			try
 //			{
-//				callService.recordCall("CS03939", newCall, actions);
+//				callService.recordCall("CS03940", newCall, actions);
 //			}
 //			catch (CustomerNotFoundException e)
 //			{

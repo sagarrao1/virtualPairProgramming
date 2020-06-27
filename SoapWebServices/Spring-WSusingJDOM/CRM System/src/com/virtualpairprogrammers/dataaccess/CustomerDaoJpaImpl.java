@@ -19,17 +19,19 @@ public class CustomerDaoJpaImpl implements CustomerDao {
 	}
 
 	@Override
-	public Customer getById(String customerId) throws RecordNotFoundException {
-		System.out.println("getById method of CustomerDaoJpaImpl class");
-		return new Customer("100029","SAGAR COMPANY"," SAGAR NOTES");
+	public Customer getById(String arg1) throws RecordNotFoundException {
+		return new Customer("100030","BHAVIKA COMPANY"," BHAVIKA NOTES");
+		
+//		System.out.println("getById method of CustomerDaoJpaImpl class........: "+arg1);
 //		try
 //		{
-//			return (Customer)em.createQuery("select customer from Customer as customer where customer.customerId=:customerId")
-//				.setParameter("customerId", customerId)
+//			return (Customer) em.createQuery("select cu from Customer cu where cu.customerId=:arg1", Customer.class)
+//				.setParameter("arg1", arg1)
 //				.getSingleResult();
 //		}
 //		catch (NoResultException e)
 //		{
+//			System.out.println(" Exception in getById !!!!");
 //			throw new RecordNotFoundException();
 //		}
 	}

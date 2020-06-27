@@ -21,7 +21,7 @@
 	<classpathentry kind="lib" path="lib/hibernate-core-4.1.4.Final.jar"/>
 	<classpathentry kind="lib" path="lib/hibernate-ehcache-4.1.4.Final.jar"/>
 	<classpathentry kind="lib" path="lib/hibernate-entitymanager-4.1.4.Final.jar"/>
-	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" sourcepath="C:/Users/sagar/AppData/Local/Temp/.org.sf.feeling.decompiler1593255400272/source/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar"/>
 	<classpathentry kind="lib" path="lib/hsqldb.jar"/>
 	<classpathentry kind="lib" path="lib/javassist-3.15.0-GA.jar"/>
 	<classpathentry kind="lib" path="lib/javax.inject.jar"/>
@@ -56,5 +56,5 @@
 	<classpathentry kind="lib" path="lib/standard.jar"/>
 	<classpathentry kind="lib" path="lib/spring-ws-core-2.2.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/jdom2-2.0.5.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
