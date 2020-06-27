@@ -1,0 +1,10 @@
+
+open Exporter class to publish the soap web service
+run it as Java application
+
+http://localhost:8080/mywebapp/customers.wsdl
+
+To import server webservice wsdl in client
+go to client project directory and run below wsimport command
+
+wsimport -keep -verbose -s ./src/ -d ./bin/ http://localhost:8080/mywebapp/customers.wsdl
