@@ -1,0 +1,40 @@
+
+this is spring WS soap web service which is used to develop 
+contract first web service to gain control on wsdl and to use custom
+xsd's to define new customer types and more restriction to context in xml
+like input customer is should be customerIdtype which has exactly 5 digits and 
+only digits not alpha numaric and simlilarly
+response is of type customer and values of customer is in sequence type
+We can use different implementations to convert  XML to java object such as
+JAX-WS is default 
+JDOM
+JAXB2
+
+this project is using JDOM jar to for xml conversion
+
+
+
+to start web services in server
+================================
+	1. execute start_tomcat.bat in C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS
+	
+	2. run ant build.xml by right click run as ant build
+	
+	3. open client project ClientForSpringWSusingJDOM from C:\PracticeJava\virtualPairProgramming\SoapWebServices\Spring-WS\client folder
+	in eclipse
+
+	wsdl url : http://localhost:8080/mywebapp/customers.wsdl
+	
+	4. run MainApp clas
+	
+	5. verify company name coming from Web service in console of client project
+
+
+== below are for for client project
+
+http://localhost:8080/mywebapp/customers.wsdl
+
+To import server webservice wsdl in client
+go to client project directory and run below wsimport command
+
+wsimport -keep -verbose -s ./src/ -d ./bin/ http://localhost:8080/mywebapp/customers.wsdl

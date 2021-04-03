@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="customerService" 
+		  class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		  
+		<property name="serviceUrl" value="rmi://localhost/CustomerService"/>
+		<property name="serviceInterface" value="com.virtualpairprogrammers.services.customers.CustomerManagementService"/>  
+    </bean>
+    
+    <bean id="callService" 
+		  class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		  
+		<property name="serviceUrl" value="rmi://localhost/CallsService"/>
+		<property name="serviceInterface" value="com.virtualpairprogrammers.services.calls.CallHandlingService"/>  
+    </bean>
+    
+	<bean id="diaryService" 
+		  class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		  
+		<property name="serviceUrl" value="rmi://localhost/DiaryService"/>
+		<property name="serviceInterface" value="com.virtualpairprogrammers.services.diary.DiaryManagementService"/>  
+    </bean>    
+
+</beans>

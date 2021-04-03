@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<import resource="/application.xml"/>
+	
+	<bean id="customerServiceRemote"
+	      class="org.springframework.remoting.rmi.RmiServiceExporter">
+	      
+	      <property name="service" ref="customerService"/>
+	      <property name="serviceName" value="CustomerService"/>
+	      <property name="serviceInterface" value="com.virtualpairprogrammers.services.customers.CustomerManagementService"/>
+	      
+	</bean>
+
+	<bean id="callsServiceRemote"
+	      class="org.springframework.remoting.rmi.RmiServiceExporter">
+	      
+	      <property name="service" ref="callService"/>
+	      <property name="serviceName" value="CallsService"/>
+	      <property name="serviceInterface" value="com.virtualpairprogrammers.services.calls.CallHandlingService"/>	      
+	</bean>
+
+	<bean id="diaryServiceRemote"
+	      class="org.springframework.remoting.rmi.RmiServiceExporter">
+	      
+	      <property name="service" ref="diaryService"/>
+	      <property name="serviceName" value="DiaryService"/>
+	      <property name="serviceInterface" value="com.virtualpairprogrammers.services.diary.DiaryManagementService"/>	      
+	</bean>
+
+</beans>

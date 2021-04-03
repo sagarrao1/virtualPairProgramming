@@ -1,0 +1,555 @@
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-10-30 15:37:54
+list
+discover
+baseUri http://localhost:8080/mywebapp/
+// [failed] discover
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+headers set --name "Accept" --value "application/json"
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+get /customer/5
+get /customer/5
+headers clear
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+// [failed] put --data "companyName: Acme" /customer/5
+// [failed] put --data "companyName: Acme" /customer/5
+// [failed] put --data "sdfsdfds" /customer/5
+put --data "{customer:5}" /customer/5
+headers clear
+get /customer/5
+put --data "{customerId:5}" /customer/5
+put --data "{customerId:5}" customer/5
+put --data "{customerId:5}" customer/5
+headers set --name "Accept" --value "application/json"
+// [failed] put --data "{customerId:5, companyName:Acme}" customer/5
+// [failed] put --data {customerId:5, companyName:Acme} customer/5
+// [failed] put --data {customerId:'5', companyName:'Acme'} customer/5
+put --data "{customerId:'5', companyName:'Acme'}" customer/5
+put --data "{customerId:'5', companyName:'Acme'}" customer/5
+put --data "{customerId:'5', companyName:'Acme'}" customer/5
+headers set --name "Accept" --value "application/yaml"
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+headers set --name "Accept" --value "application/yam"
+headers set --name "Accept" --value "application/json"
+get /customer/5
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/json"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/json"
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+headers clear
+headers set --name "Accept" --value "application/xml"
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers set --name "Accept" --value "application/json"
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+get /customer/5?mediaType=json
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5 --params "{mediaType: 'json'}"
+get /customer/5 --params "{mediaType: 'yaml'}"
+get /customer/5 --params "{mediaType: 'xml'}"
+get /customer/5 --params "{mediaType: 'sdfsdf'}"
+get /customer/5
+get /customer/5
+get /customer/5 --params "{mediaType: 'xml'}"
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+get /customer/5
+headers clear
+get /customer/5
+headers clear
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+headers list
+get /customer/5
+get /customer/5
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+get /customer/5 --params "{mediaType: 'xml'}"
+headers list
+headers clear
+get /customer/5 --params "{mediaType: 'xml'}"
+headers clear
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/5 --params "{mediaType: 'xml'}"
+headers set --name "Accept" --value "application/yaml"
+get /customer/5
+headers clear
+headers clear
+get /customer/5
+headers set --name "Accept" --value "**"
+get /customer/5
+headers set --name "Accept" --value "*"
+get /customer/5
+get /customer/5
+get /customer/5
+get /customer/100029
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-10-30 22:00:07
+get /
+get /mywebapp/customer/100029
+baseUri /mywebapp/
+get /customer/100029
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-10-31 14:25:20
+baseUri = mywebapp/
+baseUri =mywebapp/
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-10-31 14:27:52
+baseUri = /mywebapp
+get /customer/11022
+exit
+// rest-shell 1.0.1.BUILD-SNAPSHOT log closed at 2014-10-31 14:30:13
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-10-31 14:30:25
+baseUri /mywebapp
+get /customer/100029
+get /customer/100029
+get /customer/100029
+get /customerXMLVersion/100029
+get /customer/100029
+get /customer/100029
+header set --name "Accepts" --value "application/json"
+get /customer/100029
+header set --name "Accept" --value "application/json"
+get /customer/100029
+headers clear
+get /customer/100029
+headers set --name "Accept" --value "application/json"
+get /customer/100029
+headers set --name "Accept" --value "application/xml"
+get /customer/100029
+headers set --name "Accept" --value "application/image"
+get /customer/100029
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100029
+headers list
+get /customer/100029.json
+get /customer/100029
+headers list
+get /customer/100029
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100029
+headers list
+get /customers
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-05 19:39:00
+baseUri /mywebapp/
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customers
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100029
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/json"
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100022
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100022
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/json"
+get /customer/100022
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+get /customer/100022
+headers set --name "Accept" --value "application/image,application/xml"
+get /customer/100022
+get /customer/100022
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-06 14:32:15
+baseUri /mywebapp/
+get /customer/439879438794874
+get /customer/439879438794874
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-10 17:59:01
+baseUri mywebapp/
+get customer/100092
+get customer/1002389732897632
+get customer/1002389732897632
+headers list
+headers set --name "Accept" --value "application/image,application/json"
+get customer/1002389732897632
+headers set --name "Accept" --value "application/image,application/xml"
+get customer/1002389732897632
+get customer/1002389732897632
+headers set --name "Accept" --value "application/image,application/json"
+get customer/1002389732897632
+headers set --name "Accept" --value "application/image,application/xml"
+get customer/1002389732897632
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-12 17:28:12
+baseUri /webapp/
+// [failed] get /customers
+get /customers
+post /customers
+post /customers --data "{'companyName':'Microsoft','email':'bill2@microsoft.com','telephone':'6323003','notes':'Priority customers','calls':null}"
+post /customers --data "{'companyName':'Logica','notes':'First company I worked for'}"
+// [failed] post --from ./test.json
+post --from ./data.json
+post /customers/ --from ./data.json
+post /customers/ --from ./data.json
+post --from ./data.json
+post --from ./data.json
+post --from ./data.json
+post --from ./data.json
+post /customers/ --from ./data.json
+post /customers/ --from ./data.json
+post /customers/ --from ./data.json
+post --from ./data.json /customers
+post --from ./data.json /customers
+// [failed] post --from ./data.json /customers
+post --from ./data.json /customers
+post --from ./data.json /customers
+// [failed] post --from ./data.json /customers
+post --from ./data.json /customers
+post /customers --data "{"companyName":"Logica","notes":"First company I worked for"}"
+post --from ./data.json /customers
+post --from ./data.json /customers
+post --from ./data.json /customers
+// [failed] post --from ./data.json /customers
+// [failed] post --from ./data.json /customers
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-12 18:11:12
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-13 18:35:41
+post /customers --data "{'companyName':'Logica','notes':'First company I worked for'}"
+baseUri /mywebapp/
+post /customers --data "{'companyName':'Logica','notes':'First company I worked for'}"
+post /customers --data "{'companyName':'Logica','notes':'First company I worked for'}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-13 18:41:17
+baseUri /mywebapp/
+get /customer/100029
+post /customers/ --data "{"companyName":"Microsoft","notes":"Some notes"}"
+post /customers/ --data "{"companyName":"Microsoft","notes":"Some notes"}"
+post /customers/ --data "{"companyName":"Microsoft","notes":"Some notes"}"
+post /customers/ --from ./data.json
+// [failed] post /customers/ --from ./data.json
+post /customers/ --from ./data.json
+// [failed] post /customers/ --from ./data.json
+delete /customer/100029
+delete /customer/100029
+delete /customer/100029
+post /customers/ --data "{"companyName":"Microsoft","notes":"Some notes"}"
+delete /customer/100029
+// [failed] put /customer/100029 --data "{"customerId":"100029","companyName":"Microsoft","notes","Changed notes"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"Microsoft","notes":"Changed notes"}"
+put /customer/90bd7670-5c14-4267-b622-9297adab8024 --data "{"customerId":"90bd7670-5c14-4267-b622-9297adab8024","companyName":"Microsoft","notes":"Changed notes"}"
+put /customer/90bd7670-5c14-4267-b622-9297adab8024 --data "{"customerId":"90bd7670-5c14-4267-b622-9297adab8024","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/90bd7670-5c14-4267-b622-9297adab8024 --data "{"customerId":"90bd7670-5c14-4267-b622-9297adab8024","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/03759c83-f53b-4504-839f-1bc4b4f44013 --data "{"customerId":"03759c83-f53b-4504-839f-1bc4b4f44013","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/bb5e836c-2118-4549-938a-af56a39e90c5 --data "{"customerId":"bb5e836c-2118-4549-938a-af56a39e90c5","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/c197ba75-affb-4f9e-86c2-d9b3df07754d --data "{"customerId":"c197ba75-affb-4f9e-86c2-d9b3df07754d","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/c197ba75-affb-4f9e-86c2-d9b3df07754d --data "{"customerId":"c197ba75-affb-4f9e-86c2-d9b3df07754d","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/c197ba75-affb-4f9e-86c2-d9b3df07754d --data "{"customerId":"c197ba75-affb-4f9e-86c2-d9b3df07754d","companyName":"Microsoft","notes":"Changed notes","version":"2"}"
+put /customer/3ea6216d-47fd-475b-ae93-4ab7f7e24a1e --data "{"customerId":"3ea6216d-47fd-475b-ae93-4ab7f7e24a1e","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+put /customer/3ea6216d-47fd-475b-ae93-4ab7f7e24a1e --data "{"customerId":"3ea6216d-47fd-475b-ae93-4ab7f7e24a1e","companyName":"Microsoft","notes":"Changed notes","version":"1"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-17 18:09:12
+baseUri /mywebapp/
+get /customer/100029
+put /customer/100029 --data "{"customerId":"100029","companyName":"SpringSource","notes":"set by client 2"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"SpringSource","notes":"set by client 2","version":"1"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"SpringSource","notes":"set by client 2","version":"1"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"SpringSource","notes":"set by client 2","version":"2"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"Apple","notes":"set by client 2","version":"3"}"
+put /customer/100029 --data "{"customerId":"100029","companyName":"Apple","notes":"set by client 2","version":"1"}"
+// [failed] put /customer/100030 --data "{"companyName":"Microsoft" } "
+put /customer/100030 --data "{"companyName":"Microsoft"}"
+put /customer/100030 --data "{"companyName":"Microsoft","customerId":"100030"}"
+put /customer/100030 --data "{"companyName":"Microsoft"}"
+put /customer/100030 --data "{"companyName":"Microsoft","customerId":"100030"}"
+put /customer/100030 --data "{"companyName":"Microsoft"}"
+help
+help
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-18 17:52:59
+baseUri /mywebapp/
+get /customer/5
+get /customer/100029
+post /customers/ --data "{"companyName":"Dyson","notes":"Not the cleaner, the accountants","telephone":"6323003"}"
+headers set --name "Accept" --value "application/json"
+post /customers/ --data "{"companyName":"Dyson","notes":"Not the cleaner, the accountants","telephone":"6323003"}"
+post /customers/ --data "{"companyName":"Dyson","notes":"Not the cleaner, the accountants","telephone":"6323003"}"
+help
+// [failed] discover
+// [failed] discover
+// [failed] discover
+help
+discover /customer/100029
+// [failed] discover /customers
+// [failed] discover /customers
+// [failed] discover /customers
+// [failed] discover /customers?first=1&last=2
+baseUri /mywebapp
+baseUri mywebapp
+help
+follow /customers
+up
+up
+up
+up
+up
+up
+up
+up
+up
+get /customer/100029
+follow /customer/100029
+discover
+up
+up
+delete /customer/100029
+get /customers
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-19 20:44:49
+baseUri /mywebapp/
+get customer/100029
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-20 16:35:34
+baseUri /mywebapp/
+get customer/100029
+get customer/100029
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-20 20:33:04
+baseUri /mywebapp/
+get customer/100029
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers/ --data "{"companyName":"Microsoft","notes":"whatever"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-21 13:29:33
+baseUri /mywebapp/
+get customer/100029
+get customer/100029
+get customer/100030
+post /customers/ --data "{"companyName":"Microsoft","notes":"whatever"}"
+get customer/100030
+get customers/
+get /customers/
+get customer/100030
+baseUri mywebapp
+up
+up
+baseUri mywebapp
+get customer/100030
+post /customers/ --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+up
+baseUri /mywebapp
+get /customer/100030
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+up
+baseUri mywebapp
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+up
+exit
+// rest-shell 1.0.1.BUILD-SNAPSHOT log closed at 2014-11-21 14:23:34
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-21 14:23:55
+baseUri /mywebapp/
+get /customer/100030
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+up
+baseUri mywebapp
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-21 14:34:23
+baseUri /mywebapp/
+get /customer/100030
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+up
+baseUri mywebapp
+post /customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"companyName":"Microsoft","notes":"whatever"}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":""}"
+post customers --data "{"notes":"whatever","compnayName":"1"}"
+post customers --data "{"notes":"whatever","compnayName":"1"}"
+post customers --data "{"notes":"whatever","compnayName":"1"}"
+post customers --data "{"notes":"whatever","compnayName":"1"}"
+post customers --data "{"notes":"whatever","companyName":"1"}"
+post customers --data "{"notes":"whatever","companyName":"1"}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever"}"
+post customers --data "{"notes":"whatever","companyName":"gap"}"
+// rest-shell 1.0.1.BUILD-SNAPSHOT log opened at 2014-11-24 17:50:07
+baseUri mywebapp
+get customer/100029
+get customer/100029
+get customer/100029
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"whatever","companyName":"gap"}"
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"whatever","companyName":"gap"}"
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"whatever","companyName":"gap"}"
+post customers --data "{"notes":"some notes"}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever","companyName":""}"
+post customers --data "{"notes":"whatever","companyName":'      '}"

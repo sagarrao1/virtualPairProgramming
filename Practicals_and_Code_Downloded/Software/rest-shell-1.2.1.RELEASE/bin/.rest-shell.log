@@ -1,0 +1,652 @@
+15:37:53.396 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+15:39:55.658 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - No 'Accept' header specified, using application/x-spring-data-compact+json
+15:39:55.846 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - Returning links: []
+15:40:18.810 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - No 'Accept' header specified, using application/x-spring-data-compact+json
+15:40:18.814 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - Returning links: []
+15:41:25.263 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - No 'Accept' header specified, using application/x-spring-data-compact+json
+15:41:25.349 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080/mywebapp/" resulted in 404 (Not Found); invoking error handler
+15:42:02.854 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:42:52.472 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:44:12.432 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:44:41.034 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:44:51.079 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:45:05.240 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+15:45:11.191 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:14:39.920 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:15:09.320 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:16:42.280 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:17:16.807 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:17:23.727 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:19:16.927 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:27:37.592 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:32:29.944 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:38:58.592 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:39:07.182 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:48:00.223 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:48:01.887 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:48:03.015 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:48:04.247 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+16:49:30.130 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+17:00:16.687 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp//customer/5 using {customer=5}
+17:00:40.502 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+17:02:18.856 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp//customer/5 using {customerId=5}
+17:02:27.777 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp/customer/5 using {customerId=5}
+17:05:48.527 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp/customer/5 using {customerId=5}
+17:12:26.576 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp/customer/5 using {customerId=5, companyName=Acme}
+17:13:05.446 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp/customer/5 using {customerId=5, companyName=Acme}
+17:13:10.064 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080/mywebapp/customer/5 using {customerId=5, companyName=Acme}
+17:54:34.315 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+17:55:00.092 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:02:30.092 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:05:23.060 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:07:07.588 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:07:17.418 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:10:03.436 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:10:21.732 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:10:27.612 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:11:21.877 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:11:31.105 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:11:41.116 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:11:52.612 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:11:59.419 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:12:36.636 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:12:41.932 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:12:48.940 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:12:53.963 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:14:22.707 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:15:31.404 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:15:42.388 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:16:26.884 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:16:39.508 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:16:47.915 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:16:53.707 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:17:01.467 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:20:05.147 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:20:34.508 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5%3FmediaType=json using null
+18:20:45.299 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:20:53.819 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:21:28.781 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=json using null
+18:21:34.184 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=yaml using null
+18:21:37.412 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=xml using null
+18:21:40.636 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=sdfsdf using null
+18:21:43.947 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:23:36.759 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:24:09.932 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=xml using null
+18:27:50.476 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:28:01.907 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:29:02.597 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:29:13.700 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:34:39.013 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:34:46.587 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:37:25.412 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:37:29.852 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:37:31.392 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:37:32.196 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:37:32.924 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:42:10.372 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:42:21.595 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:42:27.147 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:44:49.747 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=xml using null
+18:45:16.443 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=xml using null
+18:50:30.379 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:51:24.019 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:51:27.764 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:51:30.084 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:51:31.451 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:52:59.003 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:53:55.691 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:53:57.163 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:53:59.524 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5?mediaType=xml using null
+18:54:06.060 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+18:58:48.787 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+19:05:15.115 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+19:05:20.299 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+19:06:11.740 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+21:48:35.117 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/5 using null
+21:48:52.796 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp//customer/100029 using null
+22:00:05.818 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+22:01:47.946 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080// using null
+22:02:46.650 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+22:04:14.214 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:25:19.170 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:27:50.975 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:28:37.361 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/=%2520/mywebapp//customer/11022 using null
+14:30:23.650 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:30:59.332 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:35:41.092 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:35:48.380 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:36:05.214 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customerXMLVersion/100029 using null
+14:38:09.883 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:39:10.489 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:43:48.211 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:43:56.298 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:44:47.072 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:46:45.169 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:47:03.450 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:48:08.617 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+14:48:46.722 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+16:02:42.668 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029.json using null
+16:19:46.611 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+16:20:05.063 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+16:20:14.536 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+16:32:06.337 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customers using null
+19:38:58.931 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+19:39:16.137 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:46:54.189 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:46:58.825 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:55:50.696 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:56:37.383 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:56:39.895 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+19:56:44.827 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customers using null
+19:56:47.422 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:03:06.336 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:09:18.368 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:12:21.543 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+20:12:26.710 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:12:33.582 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:15:11.712 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:15:16.118 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:15:17.271 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:15:19.997 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:18:31.325 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:18:45.174 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:18:56.814 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:22:23.190 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:22:36.365 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:26:10.311 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:26:15.620 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:31:59.302 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:32:08.693 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:32:16.580 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:33:10.629 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:33:19.293 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:33:24.100 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:34:14.163 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:34:25.823 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:34:36.324 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:35:30.437 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:36:38.100 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:37:53.449 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:44:14.297 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:44:53.372 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:44:57.982 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:45:43.564 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:46:42.068 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+20:50:16.974 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100022 using null
+14:32:13.612 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:32:38.457 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/439879438794874 using null
+16:22:38.893 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/439879438794874 using null
+17:58:59.843 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+17:59:38.423 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/100092 using null
+18:00:22.670 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+18:04:41.702 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+18:17:20.042 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+18:17:48.637 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+19:43:56.062 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+20:44:32.365 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+20:45:55.661 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/1002389732897632 using null
+17:28:10.203 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+17:28:40.328 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//webapp//customers using null
+17:28:41.376 [Spring Shell] WARN  o.s.d.r.shell.commands.HttpCommands - Client encountered an error. Retrying. (I/O error: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect)
+org.springframework.web.client.ResourceAccessException: I/O error: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:461) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:423) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.data.rest.shell.commands.HttpCommands.execute(HttpCommands.java:332) [rest-shell-1.2.1.RELEASE.jar:na]
+	at org.springframework.data.rest.shell.commands.HttpCommands.get(HttpCommands.java:152) [rest-shell-1.2.1.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_13]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_13]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_13]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:191) [spring-core-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.shell.core.SimpleExecutionStrategy.invoke(SimpleExecutionStrategy.java:64) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.SimpleExecutionStrategy.execute(SimpleExecutionStrategy.java:57) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.AbstractShell.executeCommand(AbstractShell.java:223) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.JLineShell.promptLoop(JLineShell.java:484) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at org.springframework.shell.core.JLineShell.run(JLineShell.java:158) [spring-shell-1.0.1.BUILD-SNAPSHOT.jar:1.0.1.BUILD-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_13]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[na:1.7.0_13]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:69) ~[na:1.7.0_13]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_13]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_13]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_13]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:157) ~[na:1.7.0_13]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:391) ~[na:1.7.0_13]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_13]
+	at java.net.Socket.connect(Socket.java:528) ~[na:1.7.0_13]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[na:1.7.0_13]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:378) ~[na:1.7.0_13]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:473) ~[na:1.7.0_13]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:203) ~[na:1.7.0_13]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:290) ~[na:1.7.0_13]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306) ~[na:1.7.0_13]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:995) ~[na:1.7.0_13]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:931) ~[na:1.7.0_13]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:849) ~[na:1.7.0_13]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:73) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:46) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:49) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:446) ~[spring-web-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	... 14 common frames omitted
+17:29:17.679 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//webapp//customers using null
+17:31:16.576 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using null
+17:33:11.011 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using {companyName=Microsoft, email=bill2@microsoft.com, telephone=6323003, notes=Priority customers, calls=null}
+17:34:10.402 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using {companyName=Logica, notes=First company I worked for}
+17:39:00.390 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp/ using "{'companyName':'Logica','notes':'First company I worked for'}"
+17:39:00.401 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp/
+
+< 404 NOT_FOUND
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 952
+< Date: Wed, 12 Nov 2014 17:39:00 GMT
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource () is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:39:28.543 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers/ using "{'companyName':'Logica','notes':'First company I worked for'}"
+17:39:28.596 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:39:28 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:41:36.638 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers/ using /customers/ "{'companyName':'Logica','notes':'First company I worked for'}"
+17:41:36.647 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:41:36 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:42:39.935 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp/ using /customers/ "{'companyName':'Logica','notes':'First company I worked for'}"
+17:42:39.942 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp/
+
+< 404 NOT_FOUND
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 952
+< Date: Wed, 12 Nov 2014 17:42:39 GMT
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource () is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:43:17.398 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp/ using /customers/ "{'companyName':'Logica','notes':'First company I worked for'}"
+17:43:17.406 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp/
+
+< 404 NOT_FOUND
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 952
+< Date: Wed, 12 Nov 2014 17:43:17 GMT
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource () is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:43:34.230 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp/ using /custom
+17:43:34.236 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp/
+
+< 404 NOT_FOUND
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 952
+< Date: Wed, 12 Nov 2014 17:43:34 GMT
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource () is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:52:07.055 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp/ using /custom
+17:52:07.063 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp/
+
+< 404 NOT_FOUND
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 952
+< Date: Wed, 12 Nov 2014 17:52:07 GMT
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource () is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:52:41.961 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers/ using "{'companyName':'Logica','notes':'First company I worked for'}"
+17:52:41.969 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:52:41 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:53:48.190 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers/ using --data "{'companyName':'Logica','notes':'First company I worked for'}"
+17:53:48.198 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:53:48 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:54:23.166 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers/ using 
+17:54:23.175 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:54:23 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:54:48.461 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using 
+17:54:48.468 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:54:48 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:55:48.695 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using 
+17:55:48.703 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:55:48 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:56:49.670 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using "{'companyName':'Logica','notes':'First company I worked for'}"
+17:56:49.678 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:56:49 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+17:57:26.902 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using  "{'companyName':'Logica','notes':'First company I worked for'}"
+17:57:26.909 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Wed, 12 Nov 2014 17:57:26 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+18:00:21.238 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using {companyName=Logica, notes=First company I worked for}
+18:00:21.255 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 200 OK
+< Server: Apache-Coyote/1.1
+< Content-Length: 0
+< Date: Wed, 12 Nov 2014 18:00:21 GMT
+< 
+
+18:01:34.646 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using {companyName=Logica, notes=First company I worked for}
+18:02:10.325 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using  {"companyName":"Logica","notes":"First company I worked for"}
+18:02:10.337 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 200 OK
+< Server: Apache-Coyote/1.1
+< Content-Length: 0
+< Date: Wed, 12 Nov 2014 18:02:10 GMT
+< 
+
+18:02:32.099 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {"companyName":"Logica","notes":"First company I worked for 2"}
+18:02:32.132 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 200 OK
+< Server: Apache-Coyote/1.1
+< Content-Length: 0
+< Date: Wed, 12 Nov 2014 18:02:32 GMT
+< 
+
+18:03:10.557 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//webapp//customers using {companyName=Logica, notes=First company I worked for 2}
+18:03:10.574 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//webapp//customers
+
+< 200 OK
+< Server: Apache-Coyote/1.1
+< Content-Length: 0
+< Date: Wed, 12 Nov 2014 18:03:10 GMT
+< 
+
+18:11:11.209 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+18:35:39.090 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+18:35:49.689 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//customers using {companyName=Logica, notes=First company I worked for}
+18:36:14.337 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Logica, notes=First company I worked for}
+18:38:02.260 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Logica, notes=First company I worked for}
+18:41:16.436 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+18:42:21.799 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+18:46:57.810 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=Some notes}
+18:49:12.719 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=Some notes}
+18:56:38.766 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=Some notes}
+19:00:05.092 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Sema Group, notes=First company I worked for}
+19:00:05.143 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//mywebapp//customers/
+
+< 201 CREATED
+< Server: Apache-Coyote/1.1
+< Content-Type: application/xml
+< Transfer-Encoding: chunked
+< Date: Thu, 13 Nov 2014 19:00:05 GMT
+< 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><customer><companyName>Sema Group</companyName><customerId>aae3576f-082a-4dca-ab74-0b859520a70c</customerId><notes>First company I worked for</notes></customer>
+19:02:07.846 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using --data {'companyName':'Sema Group','notes':'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}
+19:02:07.901 [Spring Shell] DEBUG o.s.d.r.shell.commands.HttpCommands - > POST http://localhost:8080//mywebapp//customers/
+
+< 400 BAD_REQUEST
+< Server: Apache-Coyote/1.1
+< Content-Type: text/html;charset=utf-8
+< Content-Length: 971
+< Date: Thu, 13 Nov 2014 19:02:07 GMT
+< Connection: close
+< 
+<html><head><title>Apache Tomcat/6.0.20 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 400 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The request sent by the client was syntactically incorrect ().</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.20</h3></body></html>
+19:20:21.912 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending DELETE to http://localhost:8080//mywebapp//customer/100029 using null
+19:21:25.500 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending DELETE to http://localhost:8080//mywebapp//customer/100029 using null
+19:28:56.437 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending DELETE to http://localhost:8080//mywebapp//customer/100029 using null
+19:30:08.157 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=Some notes}
+19:45:46.400 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending DELETE to http://localhost:8080//mywebapp//customer/100029 using null
+19:50:55.479 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=Microsoft, notes=Changed notes}
+20:02:49.950 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/90bd7670-5c14-4267-b622-9297adab8024 using {customerId=90bd7670-5c14-4267-b622-9297adab8024, companyName=Microsoft, notes=Changed notes}
+20:03:12.734 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/90bd7670-5c14-4267-b622-9297adab8024 using {customerId=90bd7670-5c14-4267-b622-9297adab8024, companyName=Microsoft, notes=Changed notes, version=1}
+20:03:27.942 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/90bd7670-5c14-4267-b622-9297adab8024 using {customerId=90bd7670-5c14-4267-b622-9297adab8024, companyName=Microsoft, notes=Changed notes, version=1}
+20:07:54.030 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/03759c83-f53b-4504-839f-1bc4b4f44013 using {customerId=03759c83-f53b-4504-839f-1bc4b4f44013, companyName=Microsoft, notes=Changed notes, version=1}
+20:09:36.313 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/bb5e836c-2118-4549-938a-af56a39e90c5 using {customerId=bb5e836c-2118-4549-938a-af56a39e90c5, companyName=Microsoft, notes=Changed notes, version=1}
+20:14:44.901 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/c197ba75-affb-4f9e-86c2-d9b3df07754d using {customerId=c197ba75-affb-4f9e-86c2-d9b3df07754d, companyName=Microsoft, notes=Changed notes, version=1}
+20:14:50.894 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/c197ba75-affb-4f9e-86c2-d9b3df07754d using {customerId=c197ba75-affb-4f9e-86c2-d9b3df07754d, companyName=Microsoft, notes=Changed notes, version=1}
+20:15:04.995 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/c197ba75-affb-4f9e-86c2-d9b3df07754d using {customerId=c197ba75-affb-4f9e-86c2-d9b3df07754d, companyName=Microsoft, notes=Changed notes, version=2}
+20:18:10.921 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/3ea6216d-47fd-475b-ae93-4ab7f7e24a1e using {customerId=3ea6216d-47fd-475b-ae93-4ab7f7e24a1e, companyName=Microsoft, notes=Changed notes, version=1}
+20:18:13.628 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/3ea6216d-47fd-475b-ae93-4ab7f7e24a1e using {customerId=3ea6216d-47fd-475b-ae93-4ab7f7e24a1e, companyName=Microsoft, notes=Changed notes, version=1}
+18:09:11.367 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+18:10:29.321 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+18:12:16.593 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=SpringSource, notes=set by client 2}
+18:40:52.134 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=SpringSource, notes=set by client 2, version=1}
+18:42:46.248 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=SpringSource, notes=set by client 2, version=1}
+18:44:14.487 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=SpringSource, notes=set by client 2, version=2}
+18:47:36.710 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=Apple, notes=set by client 2, version=3}
+19:01:01.121 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100029 using {customerId=100029, companyName=Apple, notes=set by client 2, version=1}
+19:09:24.695 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100030 using {companyName=Microsoft}
+19:10:26.824 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100030 using {companyName=Microsoft, customerId=100030}
+19:13:37.287 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100030 using {companyName=Microsoft}
+19:13:41.903 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100030 using {companyName=Microsoft, customerId=100030}
+19:20:50.271 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending PUT to http://localhost:8080//mywebapp//customer/100030 using {companyName=Microsoft}
+17:52:58.094 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+17:53:10.340 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/5 using null
+17:53:14.662 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+17:54:18.100 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Dyson, notes=Not the cleaner, the accountants, telephone=6323003}
+17:55:17.456 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Dyson, notes=Not the cleaner, the accountants, telephone=6323003}
+17:57:09.899 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Dyson, notes=Not the cleaner, the accountants, telephone=6323003}
+18:12:52.497 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/" resulted in 500 (Internal Server Error); invoking error handler
+18:14:41.697 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/" resulted in 404 (Not Found); invoking error handler
+18:14:44.500 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/" resulted in 404 (Not Found); invoking error handler
+19:52:08.044 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - Returning links: [{ rel : self, href : http://localhost:8080/mywebapp/customer/100029/customer/100029 }]
+19:52:20.918 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/customer/100029/customers" resulted in 404 (Not Found); invoking error handler
+19:52:26.997 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/customer/100029/customers/customers" resulted in 404 (Not Found); invoking error handler
+19:52:33.008 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/customer/100029/customers/customers/customers" resulted in 404 (Not Found); invoking error handler
+19:52:50.664 [Spring Shell] WARN  o.s.web.client.RestTemplate - GET request for "http://localhost:8080//mywebapp/customer/100029/customers/customers/customers/customers%3Ffirst=1&last=2" resulted in 404 (Not Found); invoking error handler
+19:54:04.797 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100029 using null
+19:54:15.447 [Spring Shell] DEBUG o.s.d.r.s.commands.DiscoveryCommands - Returning links: [{ rel : self, href : http://localhost:8080/mywebapp/customer/100029/customer/100029 }]
+20:03:51.864 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending DELETE to http://localhost:8080//mywebapp//customer/100029 using null
+20:03:58.103 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customers using null
+20:44:48.389 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+20:45:05.903 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+20:46:15.575 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:35:31.842 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+16:35:42.499 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+16:35:46.334 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+16:35:51.442 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:37:25.637 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:39:44.958 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:41:21.220 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:41:24.664 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:41:29.845 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:48:03.140 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:54:27.060 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+16:56:18.557 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:02:23.332 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:04:10.706 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:04:12.550 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:04:15.687 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:04:18.053 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:04:20.420 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:05:36.373 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:06:50.141 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:07:53.164 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:07:56.244 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:17:00.936 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:27:13.546 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:27:18.810 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:33:27.637 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:35:52.084 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+17:36:02.494 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+17:38:19.476 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+17:45:49.707 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+17:57:58.326 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:02:41.658 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:04:12.245 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:04:16.779 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:06:05.835 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:10:39.380 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:41:57.327 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:51:36.843 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:53:36.506 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:53:38.139 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+18:59:05.456 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:01:02.427 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:12:46.671 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:14:08.188 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:25:44.708 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+20:33:03.282 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+20:33:10.436 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+20:33:27.951 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+20:34:22.155 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:06:14.690 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:13:37.482 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:13:57.384 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:15:50.483 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:16:26.384 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:16:35.417 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:20:17.545 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:22:31.209 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:24:03.496 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:34:40.663 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:34:47.425 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:34:54.440 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+21:37:32.257 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+21:38:43.930 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+21:40:03.754 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=whatever}
+13:29:31.918 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+13:29:39.726 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+13:29:55.091 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100029 using null
+13:30:10.079 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100030 using null
+13:30:19.879 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers/ using {companyName=Microsoft, notes=whatever}
+13:54:30.282 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100030 using null
+13:54:49.202 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customers/ using null
+13:54:56.204 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customers/ using null
+13:57:23.460 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp/customer/100030 using null
+14:00:48.100 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/100030 using null
+14:00:55.402 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp//customers/ using {companyName=Microsoft, notes=whatever}
+14:01:12.622 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:01:18.681 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+14:22:10.657 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100030 using null
+14:22:17.035 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp/customers using {companyName=Microsoft, notes=whatever}
+14:22:33.904 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+14:22:42.745 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:23:54.119 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:28:56.288 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100030 using null
+14:29:16.989 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:32:26.323 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:34:22.605 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+14:34:49.346 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080//mywebapp//customer/100030 using null
+14:34:53.474 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080//mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:36:26.021 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp//customers using {companyName=Microsoft, notes=whatever}
+14:36:58.125 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+15:15:05.037 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+15:59:06.011 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:22:14.710 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {companyName=Microsoft, notes=whatever}
+19:22:25.448 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+19:22:45.069 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:17.151 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:19.612 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:26.172 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:31.371 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:33.500 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=}
+19:24:38.572 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=1}
+19:24:48.237 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=1}
+19:25:26.529 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=1}
+19:25:34.883 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, compnayName=1}
+19:26:23.014 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=1}
+19:27:06.122 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=1}
+19:27:11.672 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+19:33:40.795 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+19:40:31.629 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+19:43:23.371 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+19:44:39.164 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+20:01:55.956 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+20:02:04.556 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever}
+20:02:17.347 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=gap}
+17:50:06.255 [main] DEBUG o.s.d.r.s.commands.ContextCommands - Cleared context variables...
+17:50:19.977 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/100029 using null
+17:51:54.616 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/100029 using null
+17:51:57.026 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending GET to http://localhost:8080/mywebapp/customer/100029 using null
+17:53:11.984 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:15:13.438 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:20:19.656 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:21:10.209 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=gap}
+18:32:17.920 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:33:36.017 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=gap}
+18:38:02.209 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:38:25.522 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=gap}
+18:39:52.936 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=some notes}
+18:42:34.553 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+18:44:05.884 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+18:44:29.411 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+18:48:39.216 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName=}
+18:48:47.345 [Spring Shell] INFO  o.s.d.r.shell.commands.HttpCommands - Sending POST to http://localhost:8080/mywebapp/customers using {notes=whatever, companyName= }

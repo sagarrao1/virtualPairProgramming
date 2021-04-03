@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	                    http://www.springframework.org/schema/beans/spring-beans.xsd
+	                    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!--  reuse the existing business tiers - note we're using a special database for the web version
+	      (actually one that we've embedded into Tomcat. -->
+	          
+	<import resource="/daos.xml"/>
+	<import resource="/services.xml"/>
+	<import resource="/datasource-webapp.xml"/>
+	<import resource="/misc-beans.xml"/>	
+		
+	<!--  also, we need to autowire the controllers -->
+	<context:component-scan base-package="com.virtualpairprogrammers.controllers"/>
+
+	<bean id="customerServiceRemote"
+	                 class="org.springframework.remoting.caucho.HessianServiceExporter">
+	      
+	      <property name="service" ref="customerService"/>
+	      <!--  no service name for hessian 
+	      <property name="serviceName" value="CustomerService"/>
+	      -->
+	      <property name="serviceInterface" value="com.virtualpairprogrammers.services.customers.CustomerManagementService"/>
+	   </bean>	
+
+	<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+		<value>
+			/customerService=customerServiceRemote
+		</value>
+		</property>
+	</bean>
+
+</beans>
